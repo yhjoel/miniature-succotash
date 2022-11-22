@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+
+}
+
+input[type="text"] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #00ccff;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 15px
+}
+
+button {
+    background-color: #7dff938c;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+}
+button:hover{
+    background-color: #e5ff00b4;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+
+
+.con {
+    background-image: url(matrix.gif);
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 20px;
+}
+.ti {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-image: url(tri.gif);
+    padding: 20px;
+    border-radius: 25px;
+
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    animation: glow 0.5s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgb(255, 0, 0);
+    }
+    
+    to {
+      text-shadow: 0 0 20px rgb(0, 204, 255);
+    }
+  }
+
+  img{
+    width: 80%;
+    position: center;
+    border-radius: 15px;
+  }
+  @media only screen and (max-width: 550px){
+    body {
+      background-color: #420000;
+  background-image: url(bk.jpg) ;
+  }
+  }
